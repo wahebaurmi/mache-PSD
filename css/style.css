@@ -1,0 +1,346 @@
+/*
+    author: waheba urmi
+    assighnment: psd to bs-1
+
+*/
+/*
+    ====index====
+    1.Header
+    2.Home
+    3.About us
+    4.Our services
+    5.Prices
+    6.contact
+
+*/
+/* theme css*/
+
+/* global css*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.bg {
+  background: url(../img/mache-banner.png) no-repeat;
+  background-size: cover;
+}
+.menu ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+.menu ul li a:hover {
+  color: #ed145b;
+}
+.header-text {
+  text-align: center;
+}
+.header-text h1 span {
+  color: white;
+}
+
+.header-text h1 {
+  color: white;
+}
+.header-text p {
+  color: white;
+  margin: 20px;
+}
+.header-text span {
+  width: 35%;
+  display: block;
+  border: 1px solid#ed145b;
+}
+.showmore-btn {
+  background-color: #ed145b;
+  height: 55px;
+  width: 25%;
+  font-size: 22px;
+  margin: 60px 55px;
+  margin-bottom: 300px;
+  color: white;
+  border-radius: 20px;
+}
+.showmore-btn:hover {
+  background-color: white;
+  color: #ed145b;
+}
+.about {
+  width: 100%;
+  background-color: #f6f6f6;
+  position: relative;
+}
+.about-text {
+}
+.about-text h1 {
+  padding: 10px;
+  font-size: 30px;
+}
+.about-text p {
+  color: rgb(71, 70, 70);
+}
+.about-text h6 {
+  color: #ed145b;
+  font-size: 18px;
+  margin-top: 60px;
+}
+.about-text i {
+  color: #ed145b;
+  background-color: black;
+}
+.macbook-img {
+  margin-top: 120px;
+  position: absolute;
+  margin-bottom: -8px;
+}
+.about-text span {
+  width: 40%;
+  display: block;
+  border: 1px solid#ed145b;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.service-title {
+  margin: 30px 195px;
+  width: 60%;
+}
+.service-title h2 {
+  text-align: center;
+  color: rgb(71, 70, 70);
+}
+.service-title h6 {
+  color: rgb(71, 70, 70);
+  text-align: center;
+}
+.service-title span {
+  width: 50%;
+  display: block;
+  border: 1px solid#ed145b;
+  margin-top: 35px;
+  margin-left: 180px;
+  margin-bottom: 30px;
+}
+.service-item {
+  margin-top: 100px;
+}
+.service-item img {
+  padding: 15px;
+}
+.service-item h5 {
+  padding: 20px;
+  color: #ed145b;
+}
+.qouta {
+  background: url(../img/qouta-bg.png);
+  background-size: cover;
+}
+.qouta-detail {
+}
+.comma1 img {
+  margin-left: 515px;
+}
+.qouta-text h5 {
+  text-align: center;
+  color: white;
+}
+.comma2 img {
+  margin-left: 515px;
+}
+/*card section*/
+.card {
+  background-color: #f4f4f4;
+}
+.card-title h4 {
+  color: rgb(71, 70, 70);
+}
+.card-title p {
+  color: #5a5a5a;
+  margin-bottom: 50px;
+}
+.card-title span {
+  width: 40%;
+  display: block;
+  border: 1px solid#ed145b;
+  margin-top: 35px;
+  margin-left: 180px;
+  margin-bottom: 30px;
+}
+.card-body {
+  padding: 0;
+}
+.price-card-bg {
+  background-color: #5a5a5a;
+  position: relative;
+  transition: 0.05s ease-in-out;
+}
+.price-card-bg:hover {
+  background-color: #ed145b;
+}
+.price-card-bg h5 {
+  padding-top: 50px;
+  color: white;
+  font-size: 40px;
+}
+.price-card-bg h6 {
+  padding-top: 5px;
+  color: white;
+  padding-bottom: 50px;
+}
+.cstm-package {
+  position: absolute;
+  margin-top: -28px;
+  margin-left: 41px;
+}
+.cstm-package p {
+  background-color: #f4f4f4;
+  color: #5a5a5a;
+  padding-top: 11px;
+  padding-left: 50px;
+  border-radius: 20px;
+  height: 45px;
+  width: 145%;
+}
+.cstm-features {
+  margin: 45px;
+}
+.cstm-features p {
+  color: #5a5a5a;
+}
+.card-btn {
+  background-color: #ed145b;
+  height: 45px;
+  width: 55%;
+  font-size: 15px;
+  color: white;
+  border-radius: 20px;
+  margin-left: 53px;
+  margin-bottom: 30px;
+}
+/*checklist section*/
+
+.checklist line1 {
+  margin-bottom: 70px;
+}
+.checklist line2 {
+}
+.checklist h5 {
+  color: #ed145b;
+}
+.checklist p {
+  color: #5a5a5a;
+}
+/*joinus section*/
+.joinus {
+  background-color: #ed145b;
+}
+.join-text p {
+  font-size: 32px;
+  color: white;
+}
+.join-btn {
+  background-color: white;
+  height: 55px;
+  width: 80%;
+  font-size: 22px;
+  color: #ed145b;
+  border-radius: 20px;
+  border: 1px solid white;
+  transition: 0.4 ease-in-out;
+}
+.join-btn:hover {
+  background-color: #b6b1b1;
+}
+/*update section*/
+.update {
+}
+.update-title h4 {
+  color: rgb(71, 70, 70);
+}
+.update-title p {
+  color: #5a5a5a;
+  margin-bottom: 50px;
+}
+.update-title span {
+  width: 40%;
+  display: block;
+  border: 1px solid#ed145b;
+  margin-top: 35px;
+  margin-left: 180px;
+  margin-bottom: 30px;
+}
+.part-img img {
+}
+.part-img img:hover {
+  background-color: #ed145c77;
+}
+.part-text h4 {
+  color: #5a5a5a;
+  margin-top: 35px;
+}
+.part-text p {
+  color: #5a5a5a;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+.update-footer a {
+  color: #ed145b;
+  margin-left: 513px;
+}
+.update-footer img {
+  margin-left: 545px;
+}
+.update-footer img:hover {
+  color: #290f18;
+}
+/*template section*/
+.template {
+  background: url(../img/template-bg.png);
+}
+.template h1 {
+  color: white;
+}
+.template p {
+  color: white;
+}
+.template span {
+  width: 40%;
+  display: block;
+  border: 1px solid#ed145b;
+}
+.showmore-btn1 {
+  background-color: #ed145b;
+  height: 45px;
+  width: 30%;
+  font-size: 15px;
+  color: white;
+  border-radius: 20px;
+}
+/*pc section*/
+.pc-info {
+  margin-left: 150px;
+  margin-top: 25px;
+}
+.pc-info h2 {
+  font-size: 35px;
+  color: #5a5a5a;
+}
+.pc-info span {
+  width: 40%;
+  display: block;
+  border: 1px solid#ed145b;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.pc-info p {
+  color: #5a5a5a;
+}
+.download-btn {
+  background-color: #ed145b;
+  height: 45px;
+  width: 50%;
+  font-size: 15px;
+  color: white;
+  border-color: #ed145b;
+  border-radius: 20px;
+  margin-top: 20px;
+}
